@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item android:title="@string/book"
+            android:id="@+id/book"
+            android:icon="@drawable/header_icon"/>
+
+        <item android:title="@string/quran"
+            android:id="@+id/all"
+            android:checked="true"
+            android:icon="@drawable/header_icon"/>
+
+        <item android:title="@string/juz1"
+            android:id="@+id/juz1"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz2"
+            android:id="@+id/juz2"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz3"
+            android:id="@+id/juz3"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz4"
+            android:id="@+id/juz4"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz5"
+            android:id="@+id/juz5"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz6"
+            android:id="@+id/juz6"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz7"
+            android:id="@+id/juz7"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz8"
+            android:id="@+id/juz8"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz9"
+            android:id="@+id/juz9"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz10"
+            android:id="@+id/juz10"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz11"
+            android:id="@+id/juz11"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz12"
+            android:id="@+id/juz12"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz13"
+            android:id="@+id/juz13"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz14"
+            android:id="@+id/juz14"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz15"
+            android:id="@+id/juz15"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz16"
+            android:id="@+id/juz16"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz17"
+            android:id="@+id/juz17"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz18"
+            android:id="@+id/juz18"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz19"
+            android:id="@+id/juz19"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz20"
+            android:id="@+id/juz20"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz21"
+            android:id="@+id/juz21"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz22"
+            android:id="@+id/juz22"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz23"
+            android:id="@+id/juz23"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz24"
+            android:id="@+id/juz24"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz25"
+            android:id="@+id/juz25"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz26"
+            android:id="@+id/juz26"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz27"
+            android:id="@+id/juz27"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz28"
+            android:id="@+id/juz28"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz29"
+            android:id="@+id/juz29"
+            android:icon="@drawable/ic_juz"/>
+
+        <item android:title="@string/juz30"
+            android:id="@+id/juz30"
+            android:icon="@drawable/ic_juz"/>
+
+    </group>
+
+</menu>
