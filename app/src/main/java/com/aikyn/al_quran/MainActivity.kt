@@ -224,14 +224,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
             try {
                 if (!(ayahSrch?.text.toString().toInt() > 114) && !(ayahSrch?.text.toString().toInt() < 1)){
-                    var a = ArrayList<ListItem>()
-                    a.add(surahs.get(ayahSrch?.text.toString().toInt()-1))
-                    recycler?.adapter = Adapter(a, this)
+                    recycler?.scrollToPosition(ayahSrch?.text.toString().toInt())
                     hideKeyBoard()
                 }
             } catch (e: Exception) {
                 e.printStackTrace()
-                recycler?.adapter = Adapter(surahs, this)
                 hideKeyBoard()
             }
 
@@ -241,12 +238,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
             try {
                 if (!(ayahSrch?.text.toString().toInt() > array.size-2) && !(ayahSrch?.text.toString().toInt() < 1) && !ename.equals("At-Tawba") && !ename.equals("Al-Faatiha")){
-                    val sub = ArrayList<ListAyah>(array.subList(ayahSrch?.text.toString().toInt()+1, array.lastIndex+1))
-                    recycler?.adapter = SurahAdapter(sub, this)
+                    recycler?.scrollToPosition(ayahSrch?.text.toString().toInt()+1)
                     hideKeyBoard()
                 } else if (!(ayahSrch?.text.toString().toInt() > array.size-1) && !(ayahSrch?.text.toString().toInt() < 1)) {
-                    val sub = ArrayList<ListAyah>(array.subList(ayahSrch?.text.toString().toInt(), array.lastIndex+1))
-                    recycler?.adapter = SurahAdapter(sub, this)
+                    recycler?.scrollToPosition(ayahSrch?.text.toString().toInt())
                     hideKeyBoard()
                 }
             } catch (e: Exception) {
